@@ -1,0 +1,8 @@
+# a program to read students data and display it (sno, name, gender, group, address, phno)
+sno=int(input("ENTER THE ROLL NUMBER:"))
+name=input("ENER THE NAME:")
+gen=input("ENTER THE GENDER:")
+g=input("ENER THE GROUP:")
+a=input("ENER THE ADDRESS:")
+p=int(input("ENTER THE PHONE NUMBER:"))
+print("ROLL NO:%d\nNAME:%s\nGENDER:%s\nGROUP:%s\nADRESS:%s\nPHONE NUMBER:%d"%(sno,name,gen,g,a,p))
