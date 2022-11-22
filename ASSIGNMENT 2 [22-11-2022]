@@ -1,0 +1,5 @@
+#program on swapping on two numbers
+a=int(input("enter 1st number:"))
+b=int(input("enter 2nd number:"))
+a,b=b,a
+print("a value is:%d \nb value is:%d"%(a,b))
