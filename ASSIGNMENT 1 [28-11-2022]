@@ -1,0 +1,6 @@
+p=5194
+a=int(input("enter the pin:"))
+if p==a:
+    print("continue the transcations")
+else:
+    print(" incorrect pin \n try again")
