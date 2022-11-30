@@ -1,1 +1,36 @@
 
+sal=100
+sug=101
+dal=102
+oil=103
+rice=104
+cno=int(input("enter the cell phone number:"))
+name=input("enter the customer name:")
+add=input("enter the customer address:")
+q1=int(input("enter the salt quantity:"))
+q2=int(input("enter the sugar quantity:"))
+q3=int(input("enter the dal quantity:"))
+q4=int(input("enter the oil quantity:"))
+q5=int(input("enter the rice quantity:"))
+bill=(q1*sal)+(q2*sug)+(q3*dal)+(q4*oil)+(q5*rice)
+print("BILL is :",bill)
+
+if bill>3000:
+       tax=bill*5/100
+       print("TAX IS:",tax)
+elif bill>2000:
+       tax=bill*7/100
+       print("TAX IS:",tax)
+elif bill>1000:
+       tax=bill*10/100
+       print("TAX IS:",tax)
+elif bill>500:
+       tax=bill*15/100
+       print("TAX IS:",tax)
+else:
+       tax=100
+       print("TAX IS:",tax)
+
+
+
+
