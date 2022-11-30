@@ -1,0 +1,6 @@
+bno=int(input("ENTER YOUR BILL NUMBER:"))
+name=input("ENTER YOUR NAME:")
+r=int(input("ENTER YOUR BILL READING:"))
+bill=r*3.71
+tbill=bill+20+50#charges by elecricity department
+print("TOTAL BILL TO BE PAID IS:",tbill)
