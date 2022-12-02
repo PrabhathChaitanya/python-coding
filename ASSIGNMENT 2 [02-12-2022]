@@ -1,0 +1,7 @@
+def vote(a):
+       if a<18:
+              print("no")
+       else:
+              print("yes")
+a=int(input("enter your age:"))
+vote(a)
