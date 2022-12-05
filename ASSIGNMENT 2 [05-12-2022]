@@ -1,0 +1,13 @@
+n=int(input("ENTER THE NUMBER OF VALUES:"))
+b=0
+s=0
+i=0
+while i<n:
+       a=int(input("enter a number:"))
+       if a>b:
+              b=a
+       else:
+              s=a
+       i+=1
+
+print("diff is:",b-s)
