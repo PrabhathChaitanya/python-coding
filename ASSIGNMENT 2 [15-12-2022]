@@ -1,0 +1,11 @@
+n=int(input("enter the no elements:"))
+l=list(map(int,input("enter :").split()))
+l1=[]
+l2=[]
+for i in range(0,n):
+    if(l[i]%2==0):
+        l2.append(l[i])
+    else:
+        l1.append(l[i])
+print("the even numbers are:",l2)
+print("the odd numbers are:",l1)
