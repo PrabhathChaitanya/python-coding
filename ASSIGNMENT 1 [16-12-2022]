@@ -1,0 +1,7 @@
+s=input("Enter a string:")
+print("Characters are:",end=" ")
+for i in s:
+    print(i,end=" ")
+print("convert from upper to lower:",s.lower())
+print("convert from lower to upper:",s.upper())
+print("convert lower to upper and upper to lower :",s.swapcase())
