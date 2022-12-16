@@ -1,3 +1,6 @@
 s=input("Enter a string:")
-c=len(s)
-print(c)
+n=0
+for i in range(len(s)):
+    if s[i].isalpha()==1:
+        n+=1
+print("number of alphabet in the given string:",n)
