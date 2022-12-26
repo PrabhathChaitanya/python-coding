@@ -1,0 +1,11 @@
+a=int(input("ENTER THE NUMBER:"))
+i=a
+p=0
+while i>0:
+    r=i%10
+    p=p*10+r
+    i=i//10
+if(p==a):
+    print("palindrome")
+else:
+    print("not palindrome")
