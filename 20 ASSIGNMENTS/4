@@ -14,8 +14,3 @@ else:
         num//=10
     print("Maximun number is :",max)
     print("Minimun number is :",min)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
