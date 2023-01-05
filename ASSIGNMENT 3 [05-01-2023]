@@ -1,0 +1,12 @@
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input("enter k value:"))
+l.sort()
+s=l[n-k]
+b=s
+for i in range(n-k,n):
+    if(l[i]<s):
+        s=l[i]
+    if(l[i]>b):
+        b=l[i]
+print("the difference is:",b-s)
