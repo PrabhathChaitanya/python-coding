@@ -1,0 +1,7 @@
+e=input("ENTER YOUR EMAIL:")
+if(e.endswith("@gmail.com")):
+    print("you are google user")
+if(e.endswith("@yahoo.com")):
+    print("you are a yahoo user")
+if(e.endswith("@adc.aditya.ac.in")):
+    print("you are using aditya educational institute account")
