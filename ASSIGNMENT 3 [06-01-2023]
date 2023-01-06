@@ -1,0 +1,13 @@
+e=input("ENTER YOUR EMAIL:")
+
+p=input("ENTER YOUR PHONE NUMBERR:")
+c=0
+f=int(p[0])
+for i in  p:
+    if i.isdigit():
+        c=c+1
+
+if((e.endswith("@gmail.com") or e.endswith("@yahoo.com") or e.endswith("@adc.aditya.ac.in")) and c==10 and f>5 ):
+    print("REGISTRATION SUCESSFUL")
+else:
+    print("CHECK YOUR DETAILS") 
