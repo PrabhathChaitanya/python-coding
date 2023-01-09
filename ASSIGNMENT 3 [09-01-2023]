@@ -1,0 +1,10 @@
+n=int(input("enter the number:"))
+l=[]
+while n>0:
+    r=n%10
+    l.append(r)
+    n=n//10
+l.sort()
+print("the sorted number=")
+for i in l:
+    print(i,end='')
