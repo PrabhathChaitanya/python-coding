@@ -1,0 +1,8 @@
+def timeConversion(s):
+    # Write your code here
+    h,m,s = s.split(":")
+    h = int(h)%12
+    if(s[2:] == "PM"):
+        h = h + 12
+    h = format(h,"02d")
+    return f"{h}:{m}:{s[:2]}"
