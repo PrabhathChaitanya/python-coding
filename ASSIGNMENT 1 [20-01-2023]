@@ -1,0 +1,17 @@
+a=input()
+i=0
+c=0
+k=0
+r=''
+s=len(a)
+for i in range(0,s):
+    if(a[i]==a[k]):
+        c=c+1
+    else:
+        r=r+str(c)+a[k]
+        k=i
+        c=1
+    if(i==s-1):
+        r=r+str(c)+a[k]
+print(r)
+
