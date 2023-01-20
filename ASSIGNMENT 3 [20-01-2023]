@@ -1,0 +1,9 @@
+a=input()
+n=len(a)
+r=''
+for i in range(0,n):
+    if(a[i]=='a' or a[i]=='e' or a[i]=='i' or a[i]=='o' or a[i]=='u'):
+        continue
+    else:
+        r=r+a[i]
+print(r)
